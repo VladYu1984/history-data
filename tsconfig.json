@@ -1,0 +1,20 @@
+{
+	"compilerOptions": {
+		"target": "ES2022",
+		"module": "commonjs",
+		"jsx": "preserve",
+		"strict": true,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+		"outDir": "./dist",
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"baseUrl": "./src",
+		"paths": {
+		"@/*": ["./*"]
+		}
+	},
+	"exclude": ["node_modules", "**/node_modules/*", "build", "**/build/*"],
+  	"include": ["src/**/*"]
+}
